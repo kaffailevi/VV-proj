@@ -1,5 +1,5 @@
 import datetime
-import pytest
+import pytest # type: ignore
 from unittest.mock import Mock, patch
 
 from employee import Employee

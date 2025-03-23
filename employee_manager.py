@@ -28,15 +28,17 @@ class EmployeeManager:
 
         print(f"{employee.first_name} {employee.last_name} your salary: {salary} has been transferred to you.")
         pass
-
-
-if __name__ == '__main__':
+    
+def main():
     rm = RelationsManager()
     print(f"All team members: {rm.get_all_employees()}")
 
     e1 = Employee(id=1, first_name="John", last_name="Doe", base_salary=3000,
-                  birth_date=datetime.date(1970, 1, 31), hire_date=datetime.date(1990, 10, 1))
+                birth_date=datetime.date(1970, 1, 31), hire_date=datetime.date(1990, 10, 1))
     print(f"Team members for e1: {rm.get_team_members(e1)}")
 
     em = EmployeeManager(rm)
     em.calculate_salary_and_send_email(e1)
+
+if __name__ == '__main__':
+    main()

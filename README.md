@@ -6,7 +6,7 @@
 2. [Projekt struktúra](#projekt-struktúra)
 2. [Tesztsor Struktúra](#tesztsor-struktura)
 3. [Fixtúrák](#fixtúrák)
-4. [Tesztesetek](#tesztesetek)
+4. [EmployeeManager osztály tesztesetei](#employeemanager-osztaly-tesztesetei)
    - [4.1. Alapvető Fizetésszámítás Tesztelése](#alapvető-fizetésszámítás-tesztelése)
    - [4.2. Vezetői Fizetésszámítás Tesztelése](#vezetői-fizetésszámítás-tesztelése)
    - [4.3. Újonnan Felvett Alkalmazott Fizetésszámítása](#újonnan-felvett-alkalmazott-fizetésszámítása)
@@ -15,6 +15,8 @@
    - [4.6. Vezető Fizetésszámítása Csapattagok Nélkül](#vezető-fizetésszámítása-csapattagok-nélkül)
    - [4.7. Vezető Fizetésszámítása és E-mail Értesítés](#vezető-fizetésszámítása-és-e-mail-értesítés)
 5. [RelationsManager Tesztek](#relationsmanager-tesztek)
+5. [Kódbázis teszt lefedettsége](#kódbázis-teszt-lefedettsége)
+6. [CI/CD](#cicd)
 6. [Következtetés](#következtetés)
 
 ## Bevezetés

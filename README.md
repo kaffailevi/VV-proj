@@ -2,11 +2,11 @@
 
 ## Tartalomjegyzék
 
-1. [Bevezetés](#bevezetes)
+1. [Bevezetés](#bevezetés)
 2. [Projekt struktúra](#projekt-struktúra)
-2. [Tesztsor Struktúra](#tesztsor-struktura)
+2. [Tesztsor Struktúra](#tesztsor-struktúra)
 3. [Fixtúrák](#fixtúrák)
-4. [EmployeeManager osztály tesztesetei](#employeemanager-osztaly-tesztesetei)
+4. [EmployeeManager osztály tesztesetei](#employeemanager-osztály-tesztesetei)
    - [4.1. Alapvető Fizetésszámítás Tesztelése](#alapvető-fizetésszámítás-tesztelése)
    - [4.2. Vezetői Fizetésszámítás Tesztelése](#vezetői-fizetésszámítás-tesztelése)
    - [4.3. Újonnan Felvett Alkalmazott Fizetésszámítása](#újonnan-felvett-alkalmazott-fizetésszámítása)

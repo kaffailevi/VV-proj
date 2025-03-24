@@ -138,7 +138,7 @@ relations_manager_test.py      24      0   100%
 -----------------------------------------------
 TOTAL                         178      1    99%
 ```
-Annak érdekében hogy a `relations_manager` modul magasabb teszt lefedettséggel rendelkezzen, a `main` metódus is tesztelésre került, ahol ellenőrzésre kerül, hogy a `print` metódus meghívásra került legalább egyszer.  
+Annak érdekében hogy a `employee_manager` modul magasabb teszt lefedettséggel rendelkezzen, a `main` metódus is tesztelésre került, ahol ellenőrzésre kerül, hogy a `print` metódus meghívásra került legalább egyszer.  
 
 ## CI/CD
 ### Tesztek automatikus futtatása Github Action-el
